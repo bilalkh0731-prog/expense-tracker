@@ -1,29 +1,44 @@
-💰 MERN Expense Tracker
-A full-stack MERN application used to manage daily income and expense transactions.
+# 💰 MERN Expense Tracker
+
+A full-stack MERN application used to manage daily income and expense transactions.  
 The application allows users to add, view, and manage financial records with real-time balance calculations.
 
-🚀 Features
-Add Income Transactions
-Add Expense Transactions
-View Transaction History
-Real-time Balance Calculation
-Total Income & Expense Dashboard
-Responsive UI using Bootstrap
-MongoDB Database Integration
-REST API with Express.js
-Persistent Data Storage
-🛠️ Tech Stack
-Frontend
-React.js
-Bootstrap
-Axios
-Backend
-Node.js
-Express.js
-Database
-MongoDB
-Mongoose
-📂 Project Structure
+---
+
+# 🚀 Features
+
+- Add Income Transactions
+- Add Expense Transactions
+- View Transaction History
+- Real-time Balance Calculation
+- Total Income & Expense Dashboard
+- Responsive UI using Bootstrap
+- MongoDB Database Integration
+- REST API with Express.js
+- Persistent Data Storage
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js
+- Bootstrap
+- Axios
+
+## Backend
+- Node.js
+- Express.js
+
+## Database
+- MongoDB
+- Mongoose
+
+---
+
+# 📂 Project Structure
+
+```txt
 expense-tracker/
 │
 ├── client/
@@ -67,24 +82,56 @@ expense-tracker/
 ├── README.md
 ├── LICENSE
 └── .gitignore
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/kjangid0211/expense-tracker.git
-2️⃣ Backend Setup
+```
+
+---
+
+## 2️⃣ Backend Setup
+
+```bash
 cd server
 npm install
-Create .env file:
+```
 
+Create `.env` file:
+
+```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/expense Tracker
+```
+
 Run backend server:
 
+```bash
 npm run dev
-3️⃣ Frontend Setup
+```
+
+---
+
+## 3️⃣ Frontend Setup
+
+```bash
 cd client
 npm install
 npm run dev
-🧠 Application Workflow
+```
+
+---
+
+
+# 🧠 Application Workflow
+
+```txt
 User fills transaction form
           ↓
 React sends API request using Axios
@@ -96,37 +143,60 @@ MongoDB stores data
 Backend sends response
           ↓
 Frontend updates UI automatically
-📊 Dashboard Calculations
+```
+
+---
+
+# 📊 Dashboard Calculations
+
 The dashboard automatically calculates:
 
-Total Income
-Total Expense
-Current Balance
+- Total Income
+- Total Expense
+- Current Balance
+
 using all stored transaction records.
 
-Add Transaction Form
+---
+
+
+## Add Transaction Form
 (Add form screenshot here)
 
-Transaction List
+## Transaction List
 (Add transaction list screenshot here)
 
-🎯 Learning Outcomes
+---
+
+# 🎯 Learning Outcomes
+
 This project demonstrates:
 
-CRUD Operations
-REST API Development
-React State Management
-Frontend & Backend Integration
-MongoDB Database Operations
-Responsive UI Design
-🚀 Future Improvements
-Edit Transaction
-Search & Filter
-Authentication System
-Charts & Analytics
-Monthly Reports
-👨‍💻 Author
-bilal khan
+- CRUD Operations
+- REST API Development
+- React State Management
+- Frontend & Backend Integration
+- MongoDB Database Operations
+- Responsive UI Design
 
-📜 License
-This project is licensed under the MIT License.# expense-tracker
+---
+
+# 🚀 Future Improvements
+
+- Edit Transaction
+- Search & Filter
+- Authentication System
+- Charts & Analytics
+- Monthly Reports
+
+---
+
+# 👨‍💻 Author
+
+BILAL KHAN
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
